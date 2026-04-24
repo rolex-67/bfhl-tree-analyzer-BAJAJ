@@ -8,6 +8,15 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
+// Root endpoint for health check
+app.get('/', (req, res) => {
+    res.status(200).json({
+        status: "Active",
+        message: "SRM Full Stack Engineering Challenge API is running.",
+        endpoint: "Please send POST requests to /bfhl"
+    });
+});
+
 // Routes
 app.use('/bfhl', bfhlRoutes);
 
