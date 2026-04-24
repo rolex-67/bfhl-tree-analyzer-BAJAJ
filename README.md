@@ -150,7 +150,7 @@ npm run dev
 ## 🌍 Live Deployment
 
 The system is fully deployed, optimized, and ready for evaluation.
-- **Frontend Hosted On:** Netlify
-- **Backend Hosted On:** Render (CORS Globally Enabled)
+- **Frontend Hosted On:** Netlify : https://bajaj-bfhl-tree-analyzer.netlify.app/
+- **Backend Hosted On:** Render (CORS Globally Enabled) : https://bfhl-tree-analyzer-bajaj.onrender.com/
 
 > **Note to Evaluators:** The backend API on Render may take 15-30 seconds to wake up on the very first request due to free-tier cold starts. Subsequent requests will execute in under `5ms`.
